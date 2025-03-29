@@ -1,0 +1,108 @@
+
+.wishlist-container {
+    padding: 80px;
+    background-color: #f9f9f9; 
+    border-radius: 16px; 
+    border: 3px solid #e2e2e2; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    max-width: 1000px;
+    margin: 30px auto;
+    color: #333333; 
+    font-family: 'Poppins', sans-serif; 
+    overflow: hidden;
+}
+
+.wishlist-container h2 {
+    font-size: 1.8rem; 
+    font-weight: 700; 
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.wishlist-container button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem; 
+    font-weight: 700; 
+    color: #ffffff;
+    background-color: #0288d1; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.wishlist-container button:hover {
+    background-color: #01579b; 
+}
+
+
+.wishlist-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.wishlist-container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff; 
+    border-radius: 16px; 
+    border: 1px solid #e2e2e2; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.wishlist-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px; 
+    margin-right: 15px;
+    border: 1px solid #e2e2e2; 
+}
+
+.wishlist-container .item-details {
+    flex-grow: 1;
+}
+
+.wishlist-container .item-details p {
+    margin: 5px 0;
+    color: #777777; 
+}
+
+.wishlist-container .item-details p.title {
+    font-size: 1.4rem; 
+    font-weight: 700;
+    color: #333333; 
+}
+
+.wishlist-container .item-details p.price {
+    font-size: 1.3rem;
+    color: #d32f2f; 
+    font-weight: 700;
+}
+
+
+.wishlist-container .remove {
+    padding: 8px 15px;
+    font-size: 1rem; 
+    font-weight: 700; 
+    color: #ffffff;
+    background-color: #d32f2f; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 16px;
+}
+
+.wishlist-container .remove:hover {
+    background-color: #c62828;
+}
